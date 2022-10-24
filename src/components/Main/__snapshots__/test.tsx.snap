@@ -1,6 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 7rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .c0 {
   background-color: #06092b;
   color: #fff;
@@ -25,21 +40,21 @@ exports[`<Main /> should render the heading 1`] = `
   justify-content: center;
 }
 
-.c1 {
+.c2 {
   width: 25rem;
   margin-bottom: 2rem;
 }
 
-.c2 {
+.c3 {
   font-size: 2.5rem;
 }
 
-.c3 {
+.c4 {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.c4 {
+.c5 {
   margin-top: 3rem;
   width: min(30rem,100%);
 }
@@ -47,24 +62,31 @@ exports[`<Main /> should render the heading 1`] = `
 <main
   class="c0"
 >
+  <header
+    class="c1"
+  >
+    <h1>
+      My trips
+    </h1>
+  </header>
   <img
     alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="c1"
+    class="c2"
     src="/img/logo.svg"
   />
   <h1
-    class="c2"
+    class="c3"
   >
     React Avançado
   </h1>
   <h2
-    class="c3"
+    class="c4"
   >
     TypeScript, ReactJs, NextJS e Styled Components
   </h2>
   <img
-    class="c4"
+    class="c5"
     src="/img/hero-illustration.svg"
   />
 </main>
-`
+`;
