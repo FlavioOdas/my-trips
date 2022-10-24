@@ -24,9 +24,22 @@ export const Title = styled.h1`
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 `
 
 export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
+`
+
+export const SliderWrapper = styled.div`
+  width: 300px;
+  margin: 5rem auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+
+export const SliderContent = styled.div`
+  width: 100%;
 `

@@ -1,4 +1,5 @@
 import * as S from './styles'
+import ImagesSlider from 'components/ImagesSlider'
 
 const Main = () => (
   <S.Wrapper>
@@ -11,6 +12,13 @@ const Main = () => (
       TypeScript, ReactJs, NextJS e Styled Components
     </S.Description>
     <S.Illustration src="/img/hero-illustration.svg" />
+
+    <S.SliderWrapper>
+      <S.Description>More about us</S.Description>
+      <S.SliderContent>
+        <ImagesSlider />
+      </S.SliderContent>
+    </S.SliderWrapper>
   </S.Wrapper>
 )
 
