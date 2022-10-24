@@ -1,6 +1,7 @@
 import Header from 'components/Header'
 import * as S from './styles'
 import ImagesSlider from 'components/ImagesSlider'
+import Footer from 'components/Footer'
 
 const Main = () => (
   <S.Wrapper>
@@ -22,6 +23,8 @@ const Main = () => (
         <ImagesSlider />
       </S.SliderContent>
     </S.SliderWrapper>
+
+    <Footer />
   </S.Wrapper>
 )
 
